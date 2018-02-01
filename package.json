@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "./node_modules/nodemon/bin/nodemon.js",
+    "lint": "tslint **/*.ts --fix",
     "prod": "tsc && node dist/index.js"
   },
   "dependencies": {

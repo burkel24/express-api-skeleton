@@ -3,21 +3,21 @@ export default function tokenMiddleware() {
   //   const token = req.body.token || req.query.token || req.headers['x-access-token'];
 
   //   if (token) {
-  //     jwt.verify(token, app.get('superSecret'), function(err, decoded) {      
+  //     jwt.verify(token, app.get('superSecret'), function(err, decoded) {
   //       if (err) {
-  //         return res.json({ success: false, message: 'Failed to authenticate token.' });    
+  //         return res.json({ success: false, message: 'Failed to authenticate token.' });
   //       } else {
-  //         req.decoded = decoded;    
+  //         req.decoded = decoded;
   //         next();
   //       }
   //     });
 
   //   } else {
-  //     return res.status(403).send({ 
-  //       success: false, 
-  //       message: 'No token provided.' 
+  //     return res.status(403).send({
+  //       success: false,
+  //       message: 'No token provided.'
   //     });
 
   //   }
   // };
-};
+}

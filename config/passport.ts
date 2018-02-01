@@ -25,7 +25,7 @@ export default function configurePassport(passport) {
   //     User.findOne({ 'facebook.id' : profile.id }, function(err, user) {
   //       if (err) return done(err);
 
-        
+
   //       if (user) {
   //         return done(null, user);
   //       } else {
@@ -37,7 +37,7 @@ export default function configurePassport(passport) {
   //         if (profile.displayName) {
   //           newUser.facebook.name = profile.displayName;
   //         } else if (profile.name && profile.name.givenName && profile.name.familyName) {
-  //           newUser.facebook.name  = `${profile.name.givenName}  ${profile.name.familyName}`; 
+  //           newUser.facebook.name  = `${profile.name.givenName}  ${profile.name.familyName}`;
   //         } else {
   //           newUser.facebook.name = `Facebook user ${profile.id}`;
   //         }
