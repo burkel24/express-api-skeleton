@@ -7,7 +7,7 @@
   },
   "include": [
     "index.ts",
-    "config/*.ts",
+    "middleware/*.ts",
     "src/**/*.ts"
   ],
   "exclude": [
